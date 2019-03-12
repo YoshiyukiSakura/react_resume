@@ -1,16 +1,17 @@
 import React from 'react';
-import { BrowserRouter, Route } from 'react-router-dom';
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './views/App';
+import Home from './views/Home';
 import Nav from './views/Nav';
 import * as serviceWorker from './serviceWorker';
 
+
 ReactDOM.render((
     <BrowserRouter>
-        <Route path="/" component={Nav}>
-            <Route path="about" component={App}/>
-        </Route>
+        <Switch>
+            <Route path="/" component={Home} exact />
+            <Route path="/nav" component={Nav} />
+        </Switch>
     </BrowserRouter>
 ), document.getElementById('root'));
 

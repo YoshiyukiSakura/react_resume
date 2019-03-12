@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import '../assets/style/style.less';
 
-class App extends Component {
+class Home extends Component {
     render() {
         return (
             <div></div>
@@ -9,4 +9,4 @@ class App extends Component {
     }
 }
 
-export default App;
+export default Home;
