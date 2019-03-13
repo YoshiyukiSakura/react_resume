@@ -1,0 +1,232 @@
+@style: #76BA31;
+
+@brith: '//img.souche.com/f2e/e83b650679cf14c0745389c95d94daf5.png';
+@city: '//img.souche.com/f2e/aa4ce5b46f8b36ebc481a1e70bc3b866.png';
+@educate: '//img.souche.com/f2e/467b67e766d4937a1b95d7331724c360.png';
+@phone: '//img.souche.com/f2e/00d179f321e0a3c5e33357cca9c2bb6c.png';
+@email: '//img.souche.com/f2e/2d3dbda1f64d279b74f279e8ae07598e.png';
+@experience: '//img.souche.com/f2e/21d28b86c0abafe0d90dd497c243e7a3.png';
+@target: '//img.souche.com/f2e/5fdf8e0c8e5f43c5fdbda921619cf148.png';
+@skill: '//img.souche.com/f2e/f9255f4f6d7d71f72e3d8520de2eebfc.png';
+@education: '//img.souche.com/f2e/e5af7e853679a9025de526847f21b9fb.png';
+@job: '//img.souche.com/f2e/1425732a2c155c07a6f251f64c4eefc8.png';
+@ling: '//img.souche.com/f2e/6a49270083d1eea69bbd364815f6a5e8.png';
+
+.navWrapper {
+  display: flex;
+  flex-direction: column;
+  a {
+
+    line-height: 50px;
+  }
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  padding: 40px 30px;
+  font-family: SimSun, Arial, Tahoma;
+  font-size: 14px;
+}
+
+p {
+  margin: 0;
+}
+
+.line-bold {
+  border-bottom: 5px solid @style;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  p {
+    color: #000;
+    line-height: 25px;
+  }
+  .header-name {
+    width: 200px;
+    p {
+      font-size: 36px;
+      color: @style;
+      font-family: SimHei;
+      line-height: 50px;
+      font-weight: bold;
+    }
+  }
+  .header-detail {
+    padding-right: 20px;
+    p {
+      width: 100%;
+      text-indent: 20px;
+      background-position: left center;
+      background-repeat: no-repeat;
+
+      img {
+        display: block;
+        vertical-align: middle;
+        width: 16px;
+        margin-right: 4px;
+      }
+      &:first-child {
+        margin-bottom: 5px;
+      }
+    }
+    .brith {
+      background-image: url(@brith);
+      background-size: 14px;
+    }
+    .city {
+      background-image: url(@city);
+      background-size: 18px;
+    }
+    .educate {
+      background-image: url(@educate);
+      background-size: 14px;
+    }
+    .phone {
+      background-image: url(@phone);
+      background-size: 16px;
+    }
+    .email {
+      background-image: url(@email);
+      background-size: 15px;
+    }
+    .experience {
+      background-image: url(@experience);
+      background-size: 15px;
+    }
+  }
+}
+
+.block {
+  display: flex;
+  .title {
+    flex: 1;
+    font-size: 20px;
+    color: @style;
+    font-family: SimHei;
+    font-weight: bold;
+    margin-top: -5px;
+  }
+  .container {
+    position: relative;
+    flex: 5;
+    border-top: 3px solid #76BA31;
+    border-left: 1px solid #76BA31;
+    .logo {
+      position: absolute;
+      left: -15px;
+      top: -15px;
+      width: 40px;
+      height: 40px;
+      background: #fff;
+    }
+    .img {
+      margin-top: 5px;
+      height: 30px;
+      background: url(@skill) center center no-repeat;
+      background-size: 30px;
+    }
+  }
+  .content {
+    min-height: 20px;
+    padding: 20px;
+  }
+}
+
+
+.content {
+  display: flex;
+  flex-direction: row;
+  div {
+    height: 100%;
+  }
+  .content-header {
+    width: 120px;
+    margin-top: -10px;
+    div {
+      height: 30px;
+      &:first-child {
+        font-size: 20px;
+        color: @style;
+        font-family: SimHei;
+        font-weight: bold;
+      }
+    }
+  }
+  .content-detail {
+    width: calc(100% - 120px);
+    position: relative;
+    padding: 17px 0;
+    border-top: 3px solid @style;
+    border-left: 1px solid @style;
+    .empty {
+      position: absolute;
+      width: 34px;
+      height: 34px;
+      background-color: #fff;
+      top: -17px;
+      left: -17px;
+      z-index: 1;
+    }
+    .logo, .block {
+      position: absolute;
+      z-index: 2;
+    }
+    .logo {
+      width: 30px;
+      top: -15px;
+      left: -15px;
+    }
+    .block {
+      width: 21px;
+      top: 0;
+      left: -11px;
+      transform: rotate(90deg);
+    }
+    p {
+      line-height: 20px;
+      margin: 0;
+    }
+    .title {
+      display: flex;
+      justify-content: space-between;
+    }
+    .project {
+      position: relative;
+      padding: 0 10px;
+      a {
+        text-decoration: none;
+        color: #000;
+      }
+    }
+    .project-x {
+      margin-bottom: 10px;
+    }
+  }
+  .content-last {
+    padding-bottom: 5px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

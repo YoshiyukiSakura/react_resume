@@ -9,8 +9,8 @@ import * as serviceWorker from './serviceWorker';
 ReactDOM.render((
     <BrowserRouter>
         <Switch>
-            <Route path="/" component={Home} exact />
-            <Route path="/nav" component={Nav} />
+            <Route path="/" component={Nav} exact />
+            <Route path="/home" component={Home} />
         </Switch>
     </BrowserRouter>
 ), document.getElementById('root'));
