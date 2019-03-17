@@ -14,7 +14,7 @@ class Block extends Component {
                 <div className='title'>{this.props.title}</div>
                 <div className="container">
                     <div className='logo'>
-                        <div className='img'></div>
+                        <div className={`img ${this.props.block}`}></div>
                     </div>
                     {children}
                 </div>
