@@ -16,6 +16,13 @@ class Home extends Component {
                 <Skill title='专业技能'></Skill>
                 <Education title='教育背景'></Education>
                 <Job title='工作经历' refs='dasouche'></Job>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
                 <Job title='' refs='newdun'></Job>
                 <Job title='' refs='yuncheng'></Job>
             </div>

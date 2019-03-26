@@ -20,7 +20,7 @@ class Target extends Component {
                     </ContentTitle>
                     <ContentDetail>
                         <div>熟练使用Vue框架，理解浏览器异步机制，了解WebSocket编程</div>
-                        <div>能快速上手大部分前端项目，熟练前端工程化开发环境的搭建，了解Nginx反向机制</div>
+                        <div>能快速上手大部分前端项目，熟练前端工程化开发环境的搭建</div>
                     </ContentDetail>
                 </div>
             </Block>
