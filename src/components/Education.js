@@ -16,7 +16,7 @@ class Target extends Component {
                     <ContentTitle>
                         <div>浙江科技学院</div>
                         <div>计算机科学与技术</div>
-                        <div>2013 - 2017</div>
+                        <div>2013 — 2017</div>
                     </ContentTitle>
                 </div>
             </Block>

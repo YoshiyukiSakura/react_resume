@@ -63,7 +63,7 @@ p {
     padding-right: 20px;
     p {
       width: 100%;
-      text-indent: 20px;
+      text-indent: 23px;
       background-position: left center;
       background-repeat: no-repeat;
 
@@ -79,26 +79,29 @@ p {
     }
     .brith {
       background-image: url(@brith);
-      background-size: 14px;
+      background-position: 1px center;
+      background-size: 16px;
     }
     .city {
       background-image: url(@city);
-      background-size: 18px;
+      background-position: left top;
+      background-size: 20px;
     }
     .educate {
       background-image: url(@educate);
-      background-size: 14px;
+      background-size: 18px;
     }
     .phone {
       background-image: url(@phone);
-      background-size: 16px;
+      background-size: 18px;
     }
     .email {
       background-image: url(@email);
-      background-size: 15px;
+      background-size: 17px;
     }
     .experience {
       background-image: url(@experience);
+      background-position: 1px center;
       background-size: 15px;
     }
   }
@@ -129,28 +132,34 @@ p {
     }
     .img {
       height: 30px;
-      margin-top: 2px;
-      margin-left: 2px;
       &.target {
         background: url(@target) center center no-repeat;
         background-size: 30px;
-      }
-      &.education {
-        background: url(@educate) center center no-repeat;
-        background-size: 30px;
+        margin-top: 2px;
+        margin-left: -4px;
       }
       &.skill {
         background: url(@skill) center center no-repeat;
         background-size: 30px;
+        margin-top: 3px;
+        margin-left: 3px;
+      }
+      &.education {
+        background: url(@educate) center center no-repeat;
+        background-size: 34px;
+        margin-top: 4px;
+        margin-left: -5px;
       }
       &.job {
         background: url(@job) center center no-repeat;
         background-size: 30px;
+        margin-top: 2px;
+        margin-left: -6px;
       }
     }
   }
   .content {
-    padding: 20px 10px;
+    padding: 15px 10px;
   }
   .flex-column-three {
     display: flex;
@@ -172,32 +181,35 @@ p {
   }
   .content-title {
     position: relative;
-    margin-bottom: 10px;
+    margin: 10px 0;
     &:before {
       content: '';
       position: absolute;
       display: block;
       width: 20px;
       height: 20px;
-      top: 0;
+      top: -3px;
       left: -20px;
       transform: rotate(90deg);
       background: url(@ling) center center no-repeat;
       background-size: 100%;
     }
   }
+  .company {
+    margin-bottom: 20px;
+  }
   .project {
     margin-top: 20px;
   }
   .content-detail {
     font-size: 14px;
-    line-height: 20px;
+    line-height: 25px;
   }
 }
 
 .single-dotted {
   margin: 5px 0;
-  border: 1px dotted rgba(0, 0, 0, .3);
+  border-top: 1px dotted rgba(0, 0, 0, .3);
 }
 
 

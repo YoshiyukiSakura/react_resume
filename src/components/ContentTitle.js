@@ -10,7 +10,7 @@ class ContentTitle extends Component {
     render() {
         const {children} = this.props;
         return (
-            <div className={`flex-column-three content-title ${this.props.name === 'project' ? 'project' : null}`}>
+            <div className={`flex-column-three content-title ${this.props.name}`}>
                 {children}
             </div>
         );
