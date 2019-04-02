@@ -6,7 +6,6 @@ import '../assets/style/style.less';
 
 class DaSouChe extends Component {
     render() {
-        const {children} = this.props;
         return (
             <div className="">
                 <ContentTitle name="company">
