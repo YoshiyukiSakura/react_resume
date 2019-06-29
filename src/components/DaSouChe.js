@@ -11,13 +11,14 @@ class DaSouChe extends Component {
                 <ContentTitle name="company">
                     <div>大搜车</div>
                     <div>前端开发工程师</div>
-                    <div>2018.05 — 至今</div>
+                    <div>2018.05 — 2019.05</div>
                 </ContentTitle>
+                <div>技术栈：Vue、React Native、React、hybrid、webpack</div>
                 <SingleDotted />
 
                 <ContentTitle name="project">
                     <div>工作台App</div>
-                    <div>2019.03 — 至今</div>
+                    <div>2019.03 — 2019.05</div>
                 </ContentTitle>
                 <ContentDetail>
                     <div>用 RN 开发了工作台App，解决了混合App效率低体验差，原生App开发周期长，真机调试门槛高的问题。</div>
@@ -27,7 +28,7 @@ class DaSouChe extends Component {
 
                 <ContentTitle name="project">
                     <div>弹个车App</div>
-                    <div>2018.06 — 至今</div>
+                    <div>2018.06 — 2019.05</div>
                 </ContentTitle>
                 <ContentDetail>
                     <div>弹个车App三十多人协同参与，Web端，app端，RN，服务端联动的项目。</div>
@@ -37,7 +38,7 @@ class DaSouChe extends Component {
 
                 <ContentTitle name="project">
                     <div>保险App</div>
-                    <div>2018.10 — 至今</div>
+                    <div>2018.10 — 2019.05</div>
                 </ContentTitle>
                 <ContentDetail>
                     <div>独立负责Web端的架构设计，框架搭建，组件开发，业务逻辑开发。</div>

@@ -13,6 +13,7 @@ class NewDun extends Component {
                     <div>前端开发工程师</div>
                     <div>2017.10 — 2018.05</div>
                 </ContentTitle>
+                <div>技术栈：Vue</div>
                 <SingleDotted />
 
                 <ContentTitle name="project">
