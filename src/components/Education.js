@@ -4,11 +4,6 @@ import ContentTitle from './ContentTitle';
 import '../assets/style/style.less';
 
 class Target extends Component {
-
-    constructor (props) {
-        super(props);
-    }
-
     render() {
         return (
             <Block title={this.props.title} block='education'>

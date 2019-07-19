@@ -3,17 +3,14 @@ import Block from './Block';
 import DaSouChe from './DaSouChe';
 import NewDun from './NewDun';
 import YunCheng from './YunCheng';
+import JSON from './../Json'
 import '../assets/style/style.less';
 
 const DASOUCHE = 'dasouche',
-      NEWDUN = 'newdun',
-      YUNCHENG = 'yuncheng';
+      NEWDUN = 'newdun';
+      // YUNCHENG = 'yuncheng';
 
 class Target extends Component {
-    constructor (props) {
-        super(props);
-    }
-
     componentDidMount () {
         console.log(this.props);
     }
@@ -21,11 +18,11 @@ class Target extends Component {
     _render () {
         let component = '';
         if (this.props.refs === DASOUCHE) {
-            component = <DaSouChe />;
+            component = <DaSouChe data={JSON.companies.dasouche} />;
         } else if (this.props.refs === NEWDUN) {
-            component = <NewDun />;
+            component = <NewDun data={JSON.companies.newdun} />;
         } else {
-            component = <YunCheng />
+            component = <YunCheng data={JSON.companies.yuncheng} />
         }
         return component;
     }
