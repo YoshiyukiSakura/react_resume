@@ -7,7 +7,7 @@ class App extends Component {
         return (
             <div className='navWrapper'>
                 <Link to="/Home">第一封</Link>
-                <Link to="/">第二封</Link>
+                <Link to="/Hoc">第二封</Link>
                 <Link to="/">第三封</Link>
             </div>
         );

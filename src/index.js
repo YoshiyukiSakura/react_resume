@@ -3,14 +3,15 @@ import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import ReactDOM from 'react-dom';
 import Home from './views/Home';
 import Nav from './views/Nav';
+import Hoc from './views/Hoc';
 import * as serviceWorker from './serviceWorker';
-
 
 ReactDOM.render((
     <BrowserRouter>
         <Switch>
             <Route path="/" component={Nav} exact />
-            <Route path="/" component={Home} />
+            <Route path="/Home" component={Home} />
+            <Route path="/Hoc" component={Hoc} />
         </Switch>
     </BrowserRouter>
 ), document.getElementById('root'));
