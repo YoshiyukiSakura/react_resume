@@ -1,6 +1,6 @@
 const JSON = {
     target: [
-        '擅长使用 Vue / React / React Native / Typescript 进行项目开发',
+        '擅长使用 Vue / React / React Native / TypeScript 进行项目开发',
         // 了解WebSocket编程
         '能快速上手大部分前端项目，熟练前端工程化开发环境的搭建'
     ],
