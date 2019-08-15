@@ -7,12 +7,12 @@ import '../assets/style/style.less';
 class Target extends Component {
     render() {
         return (
-            <Block title={this.props.title} block='skill'>
+            <Block title={this.props.title} block='project'>
                 <div className="content">
                     <ContentDetail>
                         {
-                            JSON.skill.map((item, index) => (
-                                <div key={index}>● { item }</div>
+                            JSON.project.map((item, index) => (
+                                <div key={index}>● { item.name } <a className="grey" href={item.href}>{item.href}</a></div>
                             ))
                         }
                     </ContentDetail>

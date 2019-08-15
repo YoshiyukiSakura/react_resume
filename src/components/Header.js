@@ -19,7 +19,7 @@ class Header extends Component {
                 </div>
                 <div className="header-detail">
                     <p className="educate">本科</p>
-                    <p className="experience">2.5年经验</p>
+                    <p className="experience">3年工作经验</p>
                 </div>
             </div>
         );

@@ -17,10 +17,10 @@ class DaSouChe extends Component {
             <div className="">
                 <ContentTitle name="company">
                     <div>{ name }</div>
-                    <div>{ duty }</div>
+                    {/*<div>{ duty }</div>*/}
                     <div>{ date }</div>
                 </ContentTitle>
-                <div>技术栈：{ tech_stack }</div>
+                {/*<div>技术栈：{ tech_stack }</div>*/}
                 <SingleDotted />
 
                 {

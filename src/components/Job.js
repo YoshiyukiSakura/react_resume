@@ -1,8 +1,8 @@
 import React, {Component} from 'react';
 import Block from './Block';
 import DaSouChe from './DaSouChe';
-import NewDun from './NewDun';
-import YunCheng from './YunCheng';
+import NewDun from './DaSouChe';
+import YunCheng from './DaSouChe';
 import JSON from './../Json'
 import '../assets/style/style.less';
 

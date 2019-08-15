@@ -17,7 +17,7 @@ class Target extends Component {
                     <ContentDetail>
                         {
                             JSON.target.map((item, index) => (
-                                <div key={index}>{ item }</div>
+                                <div key={index}>● { item }</div>
                             ))
                         }
                     </ContentDetail>

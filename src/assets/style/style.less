@@ -11,6 +11,7 @@
 @education: '//img.souche.com/f2e/e5af7e853679a9025de526847f21b9fb.png';
 @job: '//img.souche.com/f2e/1425732a2c155c07a6f251f64c4eefc8.png';
 @ling: '//img.souche.com/f2e/6a49270083d1eea69bbd364815f6a5e8.png';
+@project: '//jd.kirisamenana.com/opensource_project.png';
 
 .navWrapper {
   display: flex;
@@ -40,6 +41,9 @@ p {
   border-bottom: 5px solid @style;
   margin-bottom: 20px;
   padding-bottom: 20px;
+}
+.grey {
+  color: #000;
 }
 
 .header {
@@ -150,6 +154,12 @@ p {
         margin-top: 4px;
         margin-left: -5px;
       }
+      &.project {
+        background: url(@project) center center no-repeat;
+        background-size: 30px;
+        margin-top: 2px;
+        margin-left: -6px;
+      }
       &.job {
         background: url(@job) center center no-repeat;
         background-size: 30px;
@@ -165,8 +175,8 @@ p {
     display: flex;
     width: 100%;
     div {
-      font-size: 16px;
-      line-height: 16px;
+      font-size: 17px;
+      line-height: 17px;
       &:nth-child(1) {
         flex: 1;
       }
@@ -209,6 +219,7 @@ p {
 
 .single-dotted {
   margin: 5px 0;
+  width: calc(100% + 10px);
   border-top: 1px dotted rgba(0, 0, 0, .3);
 }
 
