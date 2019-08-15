@@ -2,13 +2,13 @@ import React, {Component} from 'react';
 import Block from './Block';
 import ContentTitle from './ContentTitle';
 import ContentDetail from './ContentDetail';
-import JSON from './../Json'
 import '../assets/style/style.less';
 
 class Target extends Component {
     render() {
+        const { target, title } = this.props;
         return (
-            <Block title={this.props.title} block='target'>
+            <Block title={title} block='target'>
                 <div className="content">
                     <ContentTitle>
                         <div>Web前端开发工程师</div>
@@ -16,7 +16,7 @@ class Target extends Component {
                     </ContentTitle>
                     <ContentDetail>
                         {
-                            JSON.target.map((item, index) => (
+                            target.map((item, index) => (
                                 <div key={index}>● { item }</div>
                             ))
                         }

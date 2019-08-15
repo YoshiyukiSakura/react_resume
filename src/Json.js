@@ -1,10 +1,23 @@
 const JSON = {
     fileName: '金相莉-大搜车-13588304302',
+    basic: {
+        name: '金相莉',
+        items: [
+            { top_text: '1993年', bottom_text: '13588304302' },
+            { top_text: '杭州', bottom_text: 'jinxiangli1001@163.com' },
+            { top_text: '本科', bottom_text: '3年工作经验' }
+        ]
+    },
     target: [
         '擅长使用 Vue / React / React Native / TypeScript 进行项目开发',
         // 了解WebSocket编程
         '对微信小程序、WebApp 有一定的开发经验',
         '有一定的 Node.js 基础, 有 Express / koa 框架使用经验',
+    ],
+    education: [
+        '浙江科技学院',
+        '计算机科学与技术',
+        '2013 — 2017'
     ],
     skill: [
         '熟悉 HTML5、CSS3、ES6',

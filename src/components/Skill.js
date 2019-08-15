@@ -1,17 +1,17 @@
 import React, {Component} from 'react';
 import Block from './Block';
 import ContentDetail from './ContentDetail';
-import JSON from './../Json'
 import '../assets/style/style.less';
 
 class Target extends Component {
     render() {
+        const { skill, title } = this.props;
         return (
-            <Block title={this.props.title} block='skill'>
+            <Block title={title} block='skill'>
                 <div className="content">
                     <ContentDetail>
                         {
-                            JSON.skill.map((item, index) => (
+                            skill.map((item, index) => (
                                 <div key={index}>● { item }</div>
                             ))
                         }

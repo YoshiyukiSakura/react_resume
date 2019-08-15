@@ -1,4 +1,4 @@
-import React, {Component, Button} from 'react';
+import React, {Component} from 'react';
 
 // const Demo = (props) => {
 //     return (
@@ -77,7 +77,7 @@ const FancyButton = React.forwardRef((props, ref) => {
 
 const ref = React.createRef();
 
-console.log(ref);
+// console.log(ref);
 
 export default class Test1 extends Component {
 

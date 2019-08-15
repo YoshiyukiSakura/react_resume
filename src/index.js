@@ -2,6 +2,7 @@ import React from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import ReactDOM from 'react-dom';
 import Home from './views/Home';
+import Yizhou from './views/Yizhou';
 import Nav from './views/Nav';
 import Hoc from './views/Hoc';
 import * as serviceWorker from './serviceWorker';
@@ -11,6 +12,7 @@ ReactDOM.render((
         <Switch>
             <Route path="/" component={Nav} exact />
             <Route path="/Home" component={Home} />
+            <Route path="/Yizhou" component={Yizhou} />
             <Route path="/Hoc" component={Hoc} />
         </Switch>
     </BrowserRouter>

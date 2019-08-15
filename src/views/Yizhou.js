@@ -13,7 +13,6 @@ class Home extends Component {
     render() {
         const {
             fileName,
-            basic,
             target,
             education,
             skill,
@@ -26,7 +25,7 @@ class Home extends Component {
         document.title = fileName;
         return (
             <div>
-                <Header basic={basic}></Header>
+                <Header></Header>
                 <Target target={target} title='求职目标' />
                 <Education education={education} title='教育背景' />
                 <Skill skill={skill} title='专业技能' />

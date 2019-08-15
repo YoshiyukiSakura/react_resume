@@ -5,13 +5,16 @@ import '../assets/style/style.less';
 
 class Target extends Component {
     render() {
+        const { education, title } = this.props;
         return (
-            <Block title={this.props.title} block='education'>
+            <Block title={title} block='education'>
                 <div className="content">
                     <ContentTitle>
-                        <div>浙江科技学院</div>
-                        <div>计算机科学与技术</div>
-                        <div>2013 — 2017</div>
+                        {
+                            education.map(item => (
+                                <div key={item}>{item}</div>
+                            ))
+                        }
                     </ContentTitle>
                 </div>
             </Block>
