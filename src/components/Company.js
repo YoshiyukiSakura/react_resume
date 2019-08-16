@@ -12,7 +12,7 @@ class DaSouChe extends Component {
             project
         } = this.props.data;
         return (
-            <div className="">
+            <div className="co-company-container">
                 <ContentTitle name="company">
                     <div>{ name }</div>
                     {/*<div>{ duty }</div>*/}
@@ -24,15 +24,28 @@ class DaSouChe extends Component {
                 {
                     project.map((item, index) => (
                         <div key={index}>
-                            <ContentTitle name="project">
-                                <div>{ item.name }</div>
-                                <div>{ item.date }</div>
-                            </ContentTitle>
+                            {
+                                !!item.name &&
+                                <ContentTitle name="project">
+                                    <div>{ item.name }</div>
+                                    <div>{ item.date }</div>
+                                </ContentTitle>
+                            }
                             <ContentDetail>
                                 {
-                                    item.detail.map((i, n) => (
-                                        <div key={n}>{ i }</div>
-                                    ))
+                                    item.detail.map((i, n) => {
+                                        let className;
+                                        if (i.description) {
+                                            className = 'project-description';
+                                        } else if (i.content) {
+                                            className = 'project-content';
+                                        } else {
+                                            className = 'project-results';
+                                        }
+                                        return (
+                                            <div key={n} className={className}>{ i.description || i.content || i.results }</div>
+                                        )
+                                    })
                                 }
                             </ContentDetail>
                         </div>

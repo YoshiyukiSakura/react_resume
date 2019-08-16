@@ -312,6 +312,29 @@ p {
   }
 }
 
+.co-company-container {
+  .project-description,
+  .project-content,
+  .project-results {
+    position: relative;
+    text-indent: 13px;
+    &:before {
+      position: absolute;
+      left: 0;
+      content: '●';
+      text-indent: 0;
+    }
+  }
+  .project-description:before {
+    color: #428bca;
+  }
+  .project-content:before {
+    color: #f0ad4e;
+  }
+  .project-results:before {
+    color: #5cb85b;
+  }
+}
 
 
 
