@@ -1,5 +1,5 @@
 const JSON = {
-    fileName: '金相莉-大搜车-13588304302',
+    fileName: '金相莉-大搜车-3年工作经验',
     basic: {
         name: '金相莉',
         items: [
@@ -169,7 +169,7 @@ const JSON = {
                     date: '2017.08 — 2017.10',
                     detail: [
                         {
-                            content: '用Vue开发的精简版网站，实现了组件复用和数据的懒加载'
+                            content: '用Vue开发的精简版网站，实现了组件复用和数据的懒加载。'
                         }
                     ]
                 },
