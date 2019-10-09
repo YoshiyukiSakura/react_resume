@@ -31,15 +31,12 @@ class Home extends Component {
                 <Education education={education} title='教育背景' />
                 <Skill skill={skill} title='专业技能' />
                 <Project project={project} title='开源项目' />
-                <Job data={first} title='工作经历' refs='dasouche' />
-                <br/>
-                <br/>
-                <br/>
+                <Job data={first} title='工作经历' dataClassName="last-content" refs='dasouche' />
                 <br/>
                 <br/>
                 <br/>
                 <Job data={second} title='' refs='newdun' />
-                <Job data={third} title='' refs='yuncheng' />
+                <Job data={third} title='' dataClassName="last-content" refs='yuncheng' />
             </div>
         );
     }

@@ -6,10 +6,11 @@ import '../assets/style/style.less';
 class Target extends Component {
 
     render() {
-        const { data, title } = this.props;
+        const { data, title, dataClassName } = this.props;
+        console.log(this.props);
         return (
             <Block title={title} block='job'>
-                <div className="content">
+                <div className={'content ' + dataClassName}>
                     <Company data={data} />
                 </div>
             </Block>
@@ -19,3 +20,5 @@ class Target extends Component {
 }
 
 export default Target;
+
+

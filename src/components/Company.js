@@ -9,13 +9,14 @@ class DaSouChe extends Component {
         const {
             name,
             date,
+            duty,
             project
         } = this.props.data;
         return (
             <div className="co-company-container">
                 <ContentTitle name="company">
                     <div>{ name }</div>
-                    {/*<div>{ duty }</div>*/}
+                    <div>{ duty }</div>
                     <div>{ date }</div>
                 </ContentTitle>
                 {/*<div>技术栈：{ tech_stack }</div>*/}
