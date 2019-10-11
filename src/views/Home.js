@@ -29,7 +29,7 @@ class Home extends Component {
                 <Header basic={basic}></Header>
                 <Target target={target} title='求职目标' />
                 <Education education={education} title='教育背景' />
-                <Skill skill={skill} title='专业技能' />
+                {/*<Skill skill={skill} title='专业技能' />*/}
                 <Project project={project} title='开源项目' />
                 <Job data={first} title='工作经历' dataClassName="last-content" refs='dasouche' />
                 <br/>

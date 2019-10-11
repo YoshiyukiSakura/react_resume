@@ -43,8 +43,9 @@ class DaSouChe extends Component {
                                         } else {
                                             className = 'project-results';
                                         }
+                                        className = this.getSingleClassName(className);
                                         return (
-                                            <div key={n} className={className}>{ i.description || i.content || i.results }</div>
+                                            <div key={n} className={`project-item ${className}`}>{ i.description || i.content || i.results }</div>
                                         )
                                     })
                                 }
@@ -56,6 +57,18 @@ class DaSouChe extends Component {
             </div>
         );
     }
+
+
+    getSingleClassName = (function() {
+        let hasClass;
+        return function (className) {
+            if (hasClass === className) {
+                return '';
+            }
+            return hasClass = className;
+        }
+    })();
+
 }
 
 export default DaSouChe;
