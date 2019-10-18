@@ -11,7 +11,7 @@ class Target extends Component {
             <Block title={title} block='target'>
                 <div className="content">
                     <ContentTitle>
-                        <div>{target}</div>
+                        <div style={{whiteSpace: 'nowrap'}}>{target}</div>
                         <div></div>
                     </ContentTitle>
                     <ContentDetail>
