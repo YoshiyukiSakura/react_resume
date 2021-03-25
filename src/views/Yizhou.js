@@ -19,35 +19,36 @@ class Home extends Component {
             skill,
             project,
             companies: {
+                zeroconf,
+                dbapp: zero,
                 dongjiu: first,
                 newdun: second,
                 fengyuan: third,
                 zhongche: four,
-            }} = JSON;
+            }
+        } = JSON;
         document.title = fileName;
         return (
             <div>
-                <Header basic={basic}></Header>
-                <Target target={target} title='求职目标' />
-                <Education education={education} title='教育背景' />
-                <Skill skill={skill} title='专业技能' />
-                <Project project={project} title='开源项目' />
-                <Job data={first} title='工作经历' refs='dongjiu' />
+                <Header basic={basic}/>
+                <Target target={target} title='Brief'/>
+                <Education education={education} title='Education'/>
+                <Skill skill={skill} title='Skills'/>
+                <Project project={project} title='Open Source'/>
+                <Job data={zeroconf} title='Experiences' refs='zeroconf'/>
+                <Job data={zero} title='Experiences' refs='dbapp'/>
                 <br/>
                 <br/>
                 <br/>
                 <br/>
+                <Job data={first} title='' refs='dongjiu'/>
+                <Job data={second} title='' refs='newdun'/>
+                <Job data={third} title='' refs='fengyuan'/>
                 <br/>
                 <br/>
                 <br/>
                 <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <Job data={second} title='' refs='newdun' />
-                <Job data={third} title='' refs='fengyuan' />
-                <Job data={four} title='' refs='zhongche' />
+                <Job data={four} title='' refs='zhongche'/>
             </div>
         );
     }

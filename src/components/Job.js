@@ -3,7 +3,7 @@ import Block from './Block';
 import Company from './Company';
 import '../assets/style/style.less';
 
-class Target extends Component {
+class Job extends Component {
 
     render() {
         const { data, title, dataClassName } = this.props;
@@ -19,6 +19,6 @@ class Target extends Component {
     }
 }
 
-export default Target;
+export default Job;
 
 

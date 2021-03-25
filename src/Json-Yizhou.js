@@ -1,19 +1,20 @@
 const JSON = {
-    fileName: '辛一州-东九网络-3年工作经验',
+    fileName: '辛一州-全栈开发-5年工作经验',
     basic: {
         name: '辛一州',
         items: [
-            { top_text: 'brith:1994年', bottom_text: 'phone:17682319234' },
-            { top_text: 'city:杭州', bottom_text: 'email:634554815@qq.com' },
-            { top_text: 'educate:本科', bottom_text: 'experience:3年工作经验' }
+            {top_text: 'brith:1994年', bottom_text: 'phone:17682319234'},
+            {top_text: 'city:杭州', bottom_text: 'email:634554815@qq.com'},
+            {top_text: 'educate:本科', bottom_text: 'experience:5年工作经验'}
         ]
     },
     target: {
-        target: 'Golang服务端开发岗位、Web全栈开发岗位',
+        target: 'Web全栈开发岗位',
         detail: [
             '2013年开始接触Web开发，前、后端均有经验',
             '有带领团队经验，最多时10+人',
-            '可流畅阅读英语文档、对话；雅思7分水准'
+            '可流畅阅读英语文档、对话； 日语商务级水准',
+            '技能：React ★★★★☆ | Vue ★★★★☆ | node.js ★★★★☆ | PHP ★★★★☆ | Golang ★★★★☆ | 数据结构与算法 ★★★☆☆ '
         ]
     },
     education: {
@@ -29,23 +30,127 @@ const JSON = {
     },
     skill: [
         '熟悉现代前端工程化',
-        '理解分布式系统的开发和部署，掌握docker、k8s使用',
+        '理解分布式系统的开发和部署，掌握docker使用',
         '了解 HTTP 协议及浏览器的兼容特性，理解浏览器异步机制',
         '熟练掌握 Git Flow 规范流程'
     ],
     project: [
         {
-            name: 'Golang绘制并生成gif动图',
-            href: 'https://github.com/YoshiyukiSakura/go_heart_gif'
+            name: '程序报错telegram通知机器人',
+            href: 'https://github.com/YoshiyukiSakura/node_error_tg_bot'
         }, {
-            name: 'Canvas绘图：学写一个字',
-            href: 'https://github.com/YoshiyukiSakura/CharacterPainter'
+            name: 'DBAPP: bitcoin_explorer',
+            href: 'https://github.com/YoshiyukiSakura/bitcoin_explorer_blocklet'
         }, {
-            name: 'jQuery表格插件',
-            href: 'https://github.com/YoshiyukiSakura/grid'
+            name: 'TypeScript React 组件TodoList',
+            href: 'https://github.com/YoshiyukiSakura/TypeScript-React-MultiCheck'
         }
     ],
     companies: {
+        zeroconf: {
+            name: '国外雇主兼职项目',
+            duty: '全栈开发',
+            date: '2020.06 — 2021.03',
+            project: [
+                {
+                    name: 'bitcoin fee bot',
+                    date: '2020.06 — 2020.06',
+                    detail: [
+                        {
+                            description: '一个查询、订阅比特币、ETH手续费的tg机器人',
+                        },
+                        {
+                            content: '基于node.js的tg包开发',
+                        },
+                        {
+                            results: '有一定的用户订阅量'
+                        }
+                    ]
+                },
+                {
+                    name: 'zero confirmation',
+                    date: '2020.06 — 2020.08',
+                    detail: [
+                        {
+                            description: '一套可以预计比特币到账时间的系统',
+                        },
+                        {
+                            content: '基于koa2开发',
+                        },
+                        {
+                            results: '项目公开API文档 https://docs.cryptopayments.io/blockchain-zeroconf'
+                        }
+                    ]
+                },
+                {
+                    name: 'zero confirmation 管理后台',
+                    date: '2019.12 — 2020.06',
+                    detail: [
+                        {
+                            description: '多租户管理',
+                        },
+                        {
+                            content: '前端基于React.js、后端基于fastify',
+                        },
+                        {
+                            results: 'demo地址： https://cp.kirisamenana.com/'
+                        }
+                    ]
+                },
+            ]
+        },
+        dbapp: {
+            name: '安恒信息',
+            duty: '后端开发&TL',
+            date: '2019.11 — 2021.03',
+            project: [
+                {
+                    name: 'eHR',
+                    date: '2019.11 — 2021.03',
+                    detail: [
+                        {
+                            description: '包含入转调离、合同、招聘等功能的人力资源信息化系统',
+                        },
+                        {
+                            content: '带领2前端1后端同事工作，交付v1.0、v1.5版本，前端React，后端Golang自研框架',
+                        },
+                        {
+                            results: '为本公司的HR业务基本实现了信息化、一定程度的自动化'
+                        }
+                    ]
+                },
+                {
+                    name: '排序取号钉钉小程序',
+                    date: '2019.12 — 2019.12',
+                    detail: [
+                        {
+                            description: '用于公司内部员工办理业务时线上取号、叫号',
+                        },
+                        {
+                            content: '全栈开发，前端uniapp，后端fastify.js',
+                        },
+                        {
+                            results: '2个工作日完成了全部开发，由原本专人管理排队转为自助取号、叫号'
+                        }
+                    ]
+                },
+                {
+                    name: '考试系统',
+                    date: '2019.12 — 2020.06',
+                    detail: [
+                        {
+                            description: '用于公司对渠道合作商的培训考核',
+                        },
+                        {
+                            content: '全栈开发，前端vue，后端yii2(开源二开)',
+                        },
+                        {
+                            results: '实现了Excel管理题库、指定难度随机组卷、客观题自动判分、管理后台主动评分等功能'
+                        }
+                    ]
+                },
+            ]
+        },
         dongjiu: {
             name: '东九网络',
             duty: '后端开发',
