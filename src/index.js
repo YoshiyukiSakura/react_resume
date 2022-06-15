@@ -3,8 +3,8 @@ import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import ReactDOM from 'react-dom';
 import Home from './views/Home';
 import Yizhou from './views/Yizhou';
+import YizhouEnglish from './views/YizhouEnglish';
 import Nav from './views/Nav';
-import Hoc from './views/Hoc';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render((
@@ -13,7 +13,7 @@ ReactDOM.render((
             <Route path="/" component={Nav} exact />
             <Route path="/Home" component={Home} />
             <Route path="/Yizhou" component={Yizhou} />
-            <Route path="/Hoc" component={Hoc} />
+            <Route path="/English" component={YizhouEnglish} />
         </Switch>
     </BrowserRouter>
 ), document.getElementById('root'));

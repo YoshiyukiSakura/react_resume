@@ -7,7 +7,6 @@ class Job extends Component {
 
     render() {
         const { data, title, dataClassName } = this.props;
-        console.log(this.props);
         return (
             <Block title={title} block='job'>
                 <div className={'content ' + dataClassName}>

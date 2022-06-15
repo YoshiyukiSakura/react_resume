@@ -8,7 +8,7 @@ class App extends Component {
             <div className='navWrapper'>
                 <Link to="/Home">我的</Link>
                 <Link to="/Yizhou">一州</Link>
-                <Link to="/Hoc">第三封</Link>
+                <Link to="/English">第三封</Link>
             </div>
         );
     }
