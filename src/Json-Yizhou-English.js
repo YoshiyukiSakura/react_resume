@@ -13,6 +13,8 @@ const JSON = {
     detail: [
       '5 years of experience in web development',
       'good knowledge of frontend and backend',
+      'familiar with React.js, CSS3 and javascript coding',
+      'skilled in debugging with Chrome devtools',
     ]
   },
   education: {
