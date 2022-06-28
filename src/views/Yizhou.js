@@ -19,6 +19,7 @@ class Home extends Component {
             skill,
             project,
             companies: {
+                opensquare,
                 zeroconf,
                 dbapp: zero,
                 dongjiu: first,
@@ -35,6 +36,7 @@ class Home extends Component {
                 <Education education={education} title='Education'/>
                 <Skill skill={skill} title='Skills'/>
                 <Project project={project} title='Open Source'/>
+                <Job data={opensquare} title='Experiences' refs='opensquare'/>
                 <Job data={zeroconf} title='Experiences' refs='zeroconf'/>
                 <Job data={zero} title='Experiences' refs='dbapp'/>
                 <br/>

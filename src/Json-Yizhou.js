@@ -36,19 +36,16 @@ const JSON = {
     ],
     project: [
         {
-            name: '程序报错telegram通知机器人',
-            href: 'https://github.com/YoshiyukiSakura/node_error_tg_bot'
+            name: "React 富文本编辑器",
+            href: "https://github.com/opensquare-network/rich-text-editor",
         }, {
-            name: 'DBAPP: bitcoin_explorer',
-            href: 'https://github.com/YoshiyukiSakura/bitcoin_explorer_blocklet'
-        }, {
-            name: 'TypeScript React 组件TodoList',
-            href: 'https://github.com/YoshiyukiSakura/TypeScript-React-MultiCheck'
+            name: 'jQuery grid',
+            href: 'https://github.com/YoshiyukiSakura/grid'
         }
     ],
     companies: {
         zeroconf: {
-            name: '国外雇主兼职项目',
+            name: '国外远程兼职项目',
             duty: '全栈开发',
             date: '2020.06 — 2021.03',
             project: [
@@ -99,14 +96,34 @@ const JSON = {
                 },
             ]
         },
+        opensquare: {
+            name: 'OpenSquare (远程办公)',
+            duty: '全栈开发',
+            date: '2020.09 — 2022.06',
+            project: [
+                {
+                    name: 'OpenSquare 为波卡生态创建体验良好的区块链应用',
+                    date: '2020.09 — 2022.06',
+                    detail: [
+                        {description: '团队基于React.js和node技术栈为主',},
+                        {content: 'coinask.io, 基于加密币的付费问答社区',},
+                        {content: 'statescan.io, 资产 & NFT 浏览器',},
+                        {content: 'subsquare.io, 民主治理工具平台',},
+                        {
+                            results: '所有项目均在计划预期时间完成开发并上线',
+                        }
+                    ]
+                },
+            ]
+        },
         dbapp: {
             name: '安恒信息',
             duty: '后端开发&TL',
-            date: '2019.11 — 2021.03',
+            date: '2019.11 — 2020.09',
             project: [
                 {
                     name: 'eHR',
-                    date: '2019.11 — 2021.03',
+                    date: '2019.11 — 2020.09',
                     detail: [
                         {
                             description: '包含入转调离、合同、招聘等功能的人力资源信息化系统',
