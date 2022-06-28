@@ -9,17 +9,16 @@ const JSON = {
     ]
   },
   target: {
-    target: 'Web Full Stack Developer, passionate coder & geek',
+    target: 'Target: Web Developer, Frontend or Backend',
     detail: [
       '5 years of experience in web development',
+      'creative coder, always solve the problem',
       'good knowledge of frontend and backend',
-      'familiar with React.js, CSS3 and javascript coding',
-      'skilled in debugging with Chrome devtools',
     ]
   },
   education: {
     basic: [
-      'China Jiliang Universerty',
+      'China Jiliang University',
       'Engineering',
       '2013 — 2017'
     ],
@@ -89,14 +88,14 @@ const JSON = {
     dbapp: {
       name: 'Dbappsecuity',
       duty: 'FullstackDeveloper',
-      date: '2019.11 — now',
+      date: '2019.11 — 2020.09',
       project: [
         {
           name: 'e-HR',
           date: '2019.11 — 2020.09',
           detail: [
             {
-              description: 'a company inside website',
+              description: 'a company inside website system',
             },
             {
               content: 'for employees to submit processes、query personal file and leave records',
@@ -121,10 +120,10 @@ const JSON = {
               description: '17uoo.com is a website where you can buy/sold Online Game Virtual Currency, mostly DNF. Peek trade amount perday reached 2 million RMB',
             },
             {
-              content: 'when i onboard and started taking over project, it was in ASP.NET, my job is leading a 10 man team clone the site ',
+              content: 'when i onboard and started taking over project, it was in ASP.NET, my job is leading a 10 man team clone the site and rewrite in React & PHP yii',
             },
             {
-              results: 'My crew and me worked 10 months and released the fisrt version, much faster page loading time and cost only a half server expense'
+              results: 'My crew and me worked 10 months and released the first version, much faster page loading time and cost only a half server expense'
             }
           ]
         },
