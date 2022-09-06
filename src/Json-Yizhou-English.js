@@ -12,8 +12,8 @@ const JSON = {
     target: 'Target: Web Developer, Frontend or Backend',
     detail: [
       '5 years of experience in web development',
-      'creative coder, always solve the problem',
       'good knowledge of frontend and backend',
+      'creative coder, problem solver',
     ]
   },
   education: {
@@ -24,13 +24,13 @@ const JSON = {
     ],
     detail: [
       'joined the College News Media Club as a freshman and started coding at 2013',
-      'averagely deliver a new feature permonth for the Service Account on wechat platform, i.e: real-time event comment、lesson sheet query、examation info and etc...'
+      'implement and release new features per month for the Service Account on WeChat platform, i.e: real-time event comment、lesson sheet query、examination info and etc...'
     ]
   },
   skill: [
-    'familiar with modern front end engineering',
-    'understand how distributed systems work',
-    'know HTTP protocol well, morden Browsers too',
+    'solid skills in backend development, i.e: node.js(koa), SQL, cache, also experienced in PHP, Golang',
+    'familiar with modern front end engineering, i.e: React.js, Next.js, etc ...',
+    'good knowledge of HTTP protocol and modern Browsers',
     'experienced in Git、Docker'
   ],
   project: [
@@ -46,25 +46,25 @@ const JSON = {
     opensquare: {
       name: 'OpenSquare (Remote)',
       duty: 'Frontend Engineer',
-      date: '2020.09 — 2022.06',
+      date: '2020.09 — 2022.09',
       project: [
         {
-          name: 'OpenSquare is a team aims on blockchain world',
-          date: '2020.09 — 2022.06',
+          name: 'OpenSquare is a team supported by Polkadot treasury',
+          date: '2020.09 — 2022.09',
           detail: [
             {description: 'my job is frontend engineer here（React mainly）, bring users remarkable experience of the exquisite websites.',},
-            {content: 'coinask.io, a Q&A BBS allows users to pay in crypto to get answers',},
-            {content: 'statescan.io, explorer to check on-chain assets & NFT',},
-            {content: 'subsquare.io, governance tool for blockchain democracy',},
+            {content: 'Q&A BBS, written in TypeScript, React.js, coinask.io',},
+            {content: 'NFT browser, Next.js, good SEO',},
+            {content: 'governance tool for blockchain democracy, subsqaure.io',},
             {
-              results: 'all projects are successfully finished',
+              results: 'All projects are web3-oriented',
             }
           ]
         },
       ]
     },
     zeroconf: {
-      name: 'ZeroConf (Remote)',
+      name: 'ZeroConf (Remote, part-time)',
       duty: 'FullstackDeveloper',
       date: '2020.07 — 2020.09',
       project: [
@@ -73,10 +73,10 @@ const JSON = {
           date: '2020.07 — 2020.09',
           detail: [
             {
-              description: 'implemented this when tried to be a freelancer, a reverse engineer of GAP600',
+              description: 'a reverse engineer of GAP600, bitcoin transaction insurance',
             },
             {
-              content: 'over all, its an insurance service, which is a blockchain based insurance system, which is used to protect the bitcoin network from malicious attacks',
+              content: 'a blockchain based insurance system, which is used to protect the bitcoin network from malicious attacks',
             },
             {
               results: 'check more for https://docs.cryptopayments.io/blockchain-zeroconf',
@@ -117,10 +117,10 @@ const JSON = {
           date: '2018.05 — 2019.05',
           detail: [
             {
-              description: '17uoo.com is a website where you can buy/sold Online Game Virtual Currency, mostly DNF. Peek trade amount perday reached 2 million RMB',
+              description: '17uoo.com is a website where you can buy/sold Online Game Virtual Currency, mostly DNF. Peek trade amount per day reached 2 million RMB',
             },
             {
-              content: 'when i onboard and started taking over project, it was in ASP.NET, my job is leading a 10 man team clone the site and rewrite in React & PHP yii',
+              content: 'when i onboard and started taking over project, it was in ASP.NET, my job is leading a 10 man team clone the site and rewrite in React & PHP yii2',
             },
             {
               results: 'My crew and me worked 10 months and released the first version, much faster page loading time and cost only a half server expense'
