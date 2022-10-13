@@ -1,11 +1,11 @@
 const JSON = {
-    fileName: '辛一州-全栈开发-5年工作经验',
+    fileName: '辛一州-全栈开发-6年工作经验',
     basic: {
         name: '辛一州',
         items: [
             {top_text: 'brith:1994年', bottom_text: 'phone:17682319234'},
             {top_text: 'city:杭州', bottom_text: 'email:634554815@qq.com'},
-            {top_text: 'educate:本科', bottom_text: 'experience:5年工作经验'}
+            {top_text: 'educate:本科', bottom_text: 'experience:6年工作经验'}
         ]
     },
     target: {
@@ -13,8 +13,7 @@ const JSON = {
         detail: [
             '2013年开始接触Web开发，前、后端均有经验',
             '有带领团队经验，最多时10+人',
-            '可流畅阅读英语文档、对话； 日语商务级水准',
-            '技能：React ★★★★☆ | Vue ★★★★☆ | node.js ★★★★☆ | PHP ★★★★☆ | Golang ★★★★☆ | 数据结构与算法 ★★★☆☆ '
+            '可流畅阅读英语文档、对话',
         ]
     },
     education: {
@@ -44,6 +43,26 @@ const JSON = {
         }
     ],
     companies: {
+        opensquare: {
+            name: 'OpenSquare (远程办公)',
+            duty: '全栈开发',
+            date: '2020.09 — 至今',
+            project: [
+                {
+                    name: 'OpenSquare 为波卡生态创建体验良好的区块链应用',
+                    date: '2020.09 — 至今',
+                    detail: [
+                        {description: '团队基于React.js和node技术栈为主',},
+                        {content: 'coinask.io, 基于加密币的付费问答社区',},
+                        {content: 'statescan.io, 资产 & NFT 浏览器',},
+                        {content: 'subsquare.io, 民主治理工具平台',},
+                        {
+                            results: '兼任项目测试的工作',
+                        }
+                    ]
+                },
+            ]
+        },
         zeroconf: {
             name: '国外远程兼职项目',
             duty: '全栈开发',
@@ -91,26 +110,6 @@ const JSON = {
                         },
                         {
                             results: 'demo地址： https://cp.kirisamenana.com/'
-                        }
-                    ]
-                },
-            ]
-        },
-        opensquare: {
-            name: 'OpenSquare (远程办公)',
-            duty: '全栈开发',
-            date: '2020.09 — 2022.06',
-            project: [
-                {
-                    name: 'OpenSquare 为波卡生态创建体验良好的区块链应用',
-                    date: '2020.09 — 2022.06',
-                    detail: [
-                        {description: '团队基于React.js和node技术栈为主',},
-                        {content: 'coinask.io, 基于加密币的付费问答社区',},
-                        {content: 'statescan.io, 资产 & NFT 浏览器',},
-                        {content: 'subsquare.io, 民主治理工具平台',},
-                        {
-                            results: '所有项目均在计划预期时间完成开发并上线',
                         }
                     ]
                 },

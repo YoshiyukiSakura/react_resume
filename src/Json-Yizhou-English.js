@@ -11,9 +11,9 @@ const JSON = {
   target: {
     target: 'Target: Web Developer, Frontend or Backend',
     detail: [
-      '5 years of experience in web development',
+      '6 years of experience in web development',
       'good knowledge of frontend and backend',
-      'creative coder, problem solver',
+      'creative coder, trouble shooter',
     ]
   },
   education: {
@@ -38,7 +38,7 @@ const JSON = {
       name: "React Rich Text Editor",
       href: "https://github.com/opensquare-network/rich-text-editor",
     }, {
-      name: 'jQuery table pulgin',
+      name: 'jQuery table plugin',
       href: 'https://github.com/YoshiyukiSakura/grid'
     }
   ],
@@ -46,11 +46,11 @@ const JSON = {
     opensquare: {
       name: 'OpenSquare (Remote)',
       duty: 'Frontend Engineer',
-      date: '2020.09 — 2022.09',
+      date: '2020.09 — Now',
       project: [
         {
           name: 'OpenSquare is a team supported by Polkadot treasury',
-          date: '2020.09 — 2022.09',
+          date: '2020.09 — Now',
           detail: [
             {description: 'my job is frontend engineer here（React mainly）, bring users remarkable experience of the exquisite websites.',},
             {content: 'Q&A BBS, written in TypeScript, React.js, coinask.io',},
