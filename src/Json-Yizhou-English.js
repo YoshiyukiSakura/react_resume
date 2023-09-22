@@ -3,17 +3,18 @@ const JSON = {
   basic: {
     name: 'Xin Yizhou',
     items: [
-      {top_text: 'brith:28years old', bottom_text: 'phone:+8617682319234'},
+      {top_text: 'brith:29 years old', bottom_text: 'phone:+8617682319234'},
       {top_text: 'city:China', bottom_text: 'email:zhouge19940316@gmail.com'},
-      {top_text: 'educate:Bachelor', bottom_text: 'experience:6years exp'}
+      {top_text: 'educate:Bachelor', bottom_text: 'experience:7 years exp'}
     ]
   },
   target: {
-    target: 'Target: Web Developer, Frontend or Backend',
+    target: 'Target: Fullstack Engineer',
     detail: [
-      '6 years of experience in web development',
+      '7 years experience of web development',
       'good knowledge of frontend and backend',
-      'creative coder, trouble shooter',
+      'creative coder, troubleshooter',
+      'international working experience, business-level proficiency in English and Japanese',
     ]
   },
   education: {
@@ -28,7 +29,7 @@ const JSON = {
     ]
   },
   skill: [
-    'solid skills in backend development, i.e: node.js(koa), SQL, cache, also experienced in PHP, Golang',
+    'solid skills in backend development, i.e: node.js(koa), SQL, Caching Mechanisms, also experienced in PHP',
     'familiar with modern front end engineering, i.e: React.js, Next.js, etc ...',
     'good knowledge of HTTP protocol and modern Browsers',
     'experienced in Git、Docker'
@@ -37,35 +38,30 @@ const JSON = {
     {
       name: "React Rich Text Editor",
       href: "https://github.com/opensquare-network/rich-text-editor",
-    }, {
-      name: 'jQuery table plugin',
-      href: 'https://github.com/YoshiyukiSakura/grid'
     }
   ],
   companies: {
     opensquare: {
-      name: 'OpenSquare (Remote)',
-      duty: 'Frontend Engineer',
+      name: 'Trust Computing GmbH (Remote)',
+      duty: 'Fullstack Engineer',
       date: '2020.09 — Now',
       project: [
         {
-          name: 'OpenSquare is a team supported by Polkadot treasury',
+          name: `Trust Cumputing is a decentralized identity aggregator, digging the value of people's web3 identity`,
           date: '2020.09 — Now',
           detail: [
-            {description: 'my job is frontend engineer here（React mainly）, bring users remarkable experience of the exquisite websites.',},
-            {content: 'Q&A BBS, written in TypeScript, React.js, coinask.io',},
-            {content: 'NFT browser, Next.js, good SEO',},
-            {content: 'governance tool for blockchain democracy, subsqaure.io',},
+            {description: 'build web3 dapp for people to manage and share their personal profile',},
+            {content: 'all written in Javascript',},
             {
-              results: 'All projects are web3-oriented',
+              results: 'check more on https://idhub.litentry.io/',
             }
           ]
         },
       ]
     },
     zeroconf: {
-      name: 'ZeroConf (Remote, part-time)',
-      duty: 'FullstackDeveloper',
+      name: 'ZeroConf',
+      duty: 'Freelancer Fullstack Engineer',
       date: '2020.07 — 2020.09',
       project: [
         {
@@ -79,7 +75,7 @@ const JSON = {
               content: 'a blockchain based insurance system, which is used to protect the bitcoin network from malicious attacks',
             },
             {
-              results: 'check more for https://docs.cryptopayments.io/blockchain-zeroconf',
+              results: 'check more on https://docs.cryptopayments.io/blockchain-zeroconf',
             }
           ]
         },
@@ -87,7 +83,7 @@ const JSON = {
     },
     dbapp: {
       name: 'Dbappsecuity',
-      duty: 'FullstackDeveloper',
+      duty: 'Fullstack Engineer (Tech Lead)',
       date: '2019.11 — 2020.09',
       project: [
         {
@@ -109,7 +105,7 @@ const JSON = {
     },
     dongjiu: {
       name: 'Hangzhou Dongjiu Company',
-      duty: 'BackendDeveloper',
+      duty: 'Backend Engineer (Tech Lead)',
       date: '2018.05 — 2019.05',
       project: [
         {
@@ -131,7 +127,7 @@ const JSON = {
     },
     newdun: {
       name: 'Hangzhou Newdun Company, Zhejiang , China',
-      duty: 'BackendDeveloper',
+      duty: 'Backend Engineer (Tech Lead)',
       date: '2017.11 — 2018.05',
       project: [
         {
@@ -179,14 +175,14 @@ const JSON = {
       ]
     },
     fengyuan: {
-      name: 'Seastart Company',
-      duty: 'Manager',
+      name: 'Seastart',
+      duty: 'Project Manager',
       date: '2017.04 — 2017.11',
       project: [
         {
           detail: [
             {
-              content: 'Its a Software Outsourcing company, I worked as backend team manager, mainly job helping the crew fixing bugs',
+              content: 'Its a Software Outsourcing company, I served as the backend team manager, mainly helping with project managing and bugs fixing',
             }
           ]
         }
@@ -194,7 +190,7 @@ const JSON = {
     },
     zhongche: {
       name: 'ECRRC, China',
-      duty: 'Frontend Develop Intern',
+      duty: 'Intern Frontend Engineer',
       date: '2017.02 — 2017.03',
       project: [
         {
