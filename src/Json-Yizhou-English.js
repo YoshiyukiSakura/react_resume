@@ -3,17 +3,17 @@ const JSON = {
   basic: {
     name: 'Xin Yizhou',
     items: [
-      {top_text: 'brith:29 years old', bottom_text: 'phone:+8617682319234'},
+      {top_text: 'birth:31 years old', bottom_text: 'phone:+8617682319234'},
       {top_text: 'city:China', bottom_text: 'email:zhouge19940316@gmail.com'},
-      {top_text: 'educate:Bachelor', bottom_text: 'experience:7 years exp'}
+      {top_text: 'educate:Bachelor', bottom_text: 'experience:9 years exp'}
     ]
   },
   target: {
-    target: 'Target: Fullstack Engineer',
+    target: 'AI powered Fullstack Engineer',
     detail: [
-      '7 years experience of web development',
+      '9 years of web development experience',
       'good knowledge of frontend and backend',
-      'creative coder, troubleshooter',
+      'experienced AI agent developer',
       'international working experience, business-level proficiency in English and Japanese',
     ]
   },
@@ -24,43 +24,62 @@ const JSON = {
       '2013 — 2017'
     ],
     detail: [
-      'joined the College News Media Club as a freshman and started coding at 2013',
-      'implement and release new features per month for the Service Account on WeChat platform, i.e: real-time event comment、lesson sheet query、examination info and etc...'
+      'joined the College News Media Club and taught myself to code since 2013',
     ]
   },
   skill: [
-    'solid skills in backend development, i.e: node.js(koa), SQL, Caching Mechanisms, also experienced in PHP',
-    'familiar with modern front end engineering, i.e: React.js, Next.js, etc ...',
-    'good knowledge of HTTP protocol and modern Browsers',
-    'experienced in Git、Docker'
+    'solid skills in frontend and backend development',
+    'experienced in high-concurrency, distributed system and caching design',
   ],
   project: [
     {
-      name: "React Rich Text Editor",
-      href: "https://github.com/opensquare-network/rich-text-editor",
+      name: "Hivebot - Trading System",
+      href: "https://github.com/YoshiyukiSakura/hivebot",
+    },
+    {
+      name: "Cryptomind-AI-trading-agent",
+      href: "https://github.com/YoshiyukiSakura/Cryptomind-AI-trading-agent",
+    },
+    {
+      name: "claude-code-slack-copilot",
+      href: "https://github.com/YoshiyukiSakura/claude-code-slack-copilot",
     }
   ],
   companies: {
     opensquare: {
-      name: 'Trust Computing GmbH (Remote)',
+      name: 'Heima (previous Litentry) (Remote)',
       duty: 'Fullstack Engineer',
-      date: '2020.09 — Now',
+      date: '2022.12 — Now',
       project: [
         {
-          name: `Trust Cumputing is a decentralized identity aggregator, digging the value of people's web3 identity`,
-          date: '2020.09 — Now',
+          name: '',
+          date: '2022.12 — Now',
           detail: [
-            {description: 'build web3 dapp for people to manage and share their personal profile',},
-            {content: 'all written in Javascript',},
-            {
-              results: 'check more on https://idhub.litentry.io/',
-            }
+            {description: 'contributed to https://idhub.litentry.io/, a web3 dapp for people to manage and share their personal profile',},
+            {content: 'built the Wildmeta trading super app AI agent part and bot trading system',},
+          ]
+        },
+      ]
+    },
+    opensquareReal: {
+      name: 'OpenSquare (Remote)',
+      duty: 'Frontend Engineer',
+      date: '2020.09 — 2022.06',
+      project: [
+        {
+          name: '',
+          date: '2020.09 — 2022.06',
+          detail: [
+            {description: 'I created:',},
+            {content: 'coinask.io, a Q&A platform that allows users to pay in crypto to get answers',},
+            {content: 'statescan.io, explorer for on-chain assets & NFTs',},
+            {content: 'subsquare.io, governance tool for blockchain democracy',},
           ]
         },
       ]
     },
     zeroconf: {
-      name: 'ZeroConf',
+      name: 'Blockchain Labs (Remote)',
       duty: 'Freelancer Fullstack Engineer',
       date: '2020.07 — 2020.09',
       project: [
@@ -91,13 +110,13 @@ const JSON = {
           date: '2019.11 — 2020.09',
           detail: [
             {
-              description: 'a company inside website system',
+              description: 'an internal company web system',
             },
             {
               content: 'for employees to submit processes、query personal file and leave records',
             },
             {
-              results: 'automated lots of HR affairs, bring a better experience to employees'
+              results: 'automated lots of HR affairs, brought a better experience to employees'
             }
           ]
         },
@@ -113,13 +132,13 @@ const JSON = {
           date: '2018.05 — 2019.05',
           detail: [
             {
-              description: '17uoo.com is a website where you can buy/sold Online Game Virtual Currency, mostly DNF. Peek trade amount per day reached 2 million RMB',
+              description: '17uoo.com is a website where you can buy/sell Online Game Virtual Currency, mostly DNF. Peak trade amount per day reached 2 million RMB',
             },
             {
-              content: 'when i onboard and started taking over project, it was in ASP.NET, my job is leading a 10 man team clone the site and rewrite in React & PHP yii2',
+              content: 'when I onboarded and started taking over the project, it was in ASP.NET, my job was leading a 10-man team to clone the site and rewrite in React & PHP yii2',
             },
             {
-              results: 'My crew and me worked 10 months and released the first version, much faster page loading time and cost only a half server expense'
+              results: 'My crew and I worked 10 months and released the first version, much faster page loading time and cost only half the server expense'
             }
           ]
         },
@@ -135,7 +154,7 @@ const JSON = {
           date: '2018.03 — 2018.05',
           detail: [
             {
-              description: 'lead a 4 man backend crew, Intergration aliyun、Qcloud、UCLOUD，make it possible to manage servers form one single panel。',
+              description: 'led a 4-man backend crew, integrated Aliyun, Qcloud, UCLOUD, making it possible to manage servers from one single panel',
             },
             {
               content: 'Designed server architecture',
@@ -150,7 +169,7 @@ const JSON = {
           date: '2017.11 — 2017.12',
           detail: [
             {
-              description: 'based on Openstack, created a website for users building their personal cloud server',
+              description: 'based on Openstack, created a website for users to build their personal cloud server',
             },
             {
               content: 'Mainly responsible for order module',
@@ -182,7 +201,7 @@ const JSON = {
         {
           detail: [
             {
-              content: 'Its a Software Outsourcing company, I served as the backend team manager, mainly helping with project managing and bugs fixing',
+              content: 'A software outsourcing company, I served as the backend team manager, mainly helping with project management and bug fixing',
             }
           ]
         }
@@ -199,7 +218,7 @@ const JSON = {
               content: 'My first job, making UI designs into web pages',
             },
             {
-              results: 'The biggest Railway stuff trading website in China, also have an english site http://en.ecrrc.com/'
+              results: 'The biggest railway equipment trading website in China, also has an English site http://en.ecrrc.com/'
             }
           ]
         }

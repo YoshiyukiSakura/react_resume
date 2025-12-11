@@ -19,7 +19,8 @@ class Home extends Component {
             skill,
             project,
             companies: {
-                opensquare,
+                opensquare: heima,
+                opensquareReal,
                 zeroconf: minusOne,
                 dbapp: zero,
                 dongjiu: first,
@@ -36,7 +37,8 @@ class Home extends Component {
                 <Education education={education} title='Education'/>
                 <Skill skill={skill} title='Skills'/>
                 <Project project={project} title='Open Source'/>
-                <Job data={opensquare} title='Experiences' refs='opensquare'/>
+                <Job data={heima} title='Experiences' refs='heima'/>
+                <Job data={opensquareReal} title='Experiences' refs='opensquare'/>
                 <Job data={minusOne} title='Experiences' refs='zeroconf'/>
                 <Job data={zero} title='Experiences' refs='dbapp'/>
                 <br/>
