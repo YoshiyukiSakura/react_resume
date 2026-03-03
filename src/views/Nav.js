@@ -9,6 +9,7 @@ class App extends Component {
                 <Link to="/Home">我的</Link>
                 <Link to="/Yizhou">一州</Link>
                 <Link to="/English">第三封</Link>
+                <Link to="/Japanese">日语版</Link>
             </div>
         );
     }

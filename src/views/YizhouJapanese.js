@@ -4,7 +4,7 @@ import Target from './../components/Target';
 import Education from './../components/Education';
 import Job from './../components/Job';
 import Project from './../components/Project';
-import JSON from './../Json-Yizhou-English';
+import JSON from './../Json-Yizhou-Japanese';
 
 import '../assets/style/style.less';
 
@@ -25,19 +25,19 @@ class Home extends Component {
                 newdun: second,
                 fengyuan: third,
                 zhongche: four,
-            }
+            },
         } = JSON;
         document.title = fileName;
         return (
             <div>
                 <Header basic={basic}/>
-                <Target target={target} title='Brief'/>
-                <Education education={education} title='Education'/>
-                <Project project={project} title='Open Source'/>
-                <Job data={heima} title='Experiences' refs='heima'/>
-                <Job data={opensquare} title='Experiences' refs='opensquare'/>
-                <Job data={zeroconf} title='Experiences' refs='zeroconf'/>
-                <Job data={zero} title='Experiences' refs='dbapp'/>
+                <Target target={target} title='概要'/>
+                <Education education={education} title='学歴'/>
+                <Project project={project} title='オープンソース'/>
+                <Job data={heima} title='職務経歴' refs='heima'/>
+                <Job data={opensquare} title='職務経歴' refs='opensquare'/>
+                <Job data={zeroconf} title='職務経歴' refs='zeroconf'/>
+                <Job data={zero} title='職務経歴' refs='dbapp'/>
                 <br/>
                 <br/>
                 <br/>

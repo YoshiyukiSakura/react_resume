@@ -2,7 +2,6 @@ import React, {Component} from 'react';
 import Header from './../components/Header';
 import Target from './../components/Target';
 import Education from './../components/Education';
-import Skill from './../components/Skill';
 import Job from './../components/Job';
 import Project from './../components/Project';
 import JSON from './../Json-Yizhou';
@@ -16,9 +15,9 @@ class Home extends Component {
             basic,
             target,
             education,
-            skill,
             project,
             companies: {
+                heima,
                 opensquare,
                 zeroconf,
                 dbapp: zero,
@@ -34,8 +33,8 @@ class Home extends Component {
                 <Header basic={basic}/>
                 <Target target={target} title='Brief'/>
                 <Education education={education} title='Education'/>
-                <Skill skill={skill} title='Skills'/>
                 <Project project={project} title='Open Source'/>
+                <Job data={heima} title='Experiences' refs='heima'/>
                 <Job data={opensquare} title='Experiences' refs='opensquare'/>
                 <Job data={zeroconf} title='Experiences' refs='zeroconf'/>
                 <Job data={zero} title='Experiences' refs='dbapp'/>

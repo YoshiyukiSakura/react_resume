@@ -4,6 +4,7 @@ import ReactDOM from 'react-dom';
 import Home from './views/Home';
 import Yizhou from './views/Yizhou';
 import YizhouEnglish from './views/YizhouEnglish';
+import YizhouJapanese from './views/YizhouJapanese';
 import Nav from './views/Nav';
 import * as serviceWorker from './serviceWorker';
 
@@ -14,6 +15,7 @@ ReactDOM.render((
             <Route path="/Home" component={Home} />
             <Route path="/Yizhou" component={Yizhou} />
             <Route path="/English" component={YizhouEnglish} />
+            <Route path="/Japanese" component={YizhouJapanese} />
         </Switch>
     </BrowserRouter>
 ), document.getElementById('root'));

@@ -1,115 +1,98 @@
 const JSON = {
-    fileName: '辛一州-全栈开发-6年工作经验',
+    fileName: '辛一州-AI全栈开发-9年工作经验',
     basic: {
         name: '辛一州',
         items: [
-            {top_text: 'brith:1994年', bottom_text: 'phone:17682319234'},
-            {top_text: 'city:杭州', bottom_text: 'email:634554815@qq.com'},
-            {top_text: 'educate:本科', bottom_text: 'experience:6年工作经验'}
+            {top_text: 'birth:31岁', bottom_text: 'phone:17682319234'},
+            {top_text: 'city:杭州', bottom_text: 'email:zhouge19940316@gmail.com'},
+            {top_text: 'educate:本科', bottom_text: 'experience:9年工作经验'}
         ]
     },
     target: {
-        target: 'Web全栈开发岗位',
+        target: 'AI驱动的全栈开发工程师',
         detail: [
-            '2013年开始接触Web开发，前、后端均有经验',
-            '有带领团队经验，最多时10+人',
-            '可流畅阅读英语文档、对话',
+            '9年Web开发经验',
+            '扎实的前后端开发能力',
+            '精通AI Agent(智能体)开发',
+            '2025年9月首尔黑客松冠军（项目：Hyperliquid Trading Copilot）',
+            '国际化工作经验，英语、日语流利',
         ]
     },
     education: {
         basic: [
             '中国计量大学',
-            '生物工程',
+            '工程',
             '2013 — 2017'
         ],
         detail: [
-            '在校期间作为社团技术负责人开发微信公众号后端服务',
-            '参与学校组织的开发实验项目、比赛等，有若干开源上传至github.com/YoshiyukiSakura'
+            '在校期间加入新媒体社团，2013年开始自学编程',
         ]
     },
-    skill: [
-        '熟悉现代前端工程化',
-        '理解分布式系统的开发和部署，掌握docker使用',
-        '了解 HTTP 协议及浏览器的兼容特性，理解浏览器异步机制',
-        '熟练掌握 Git Flow 规范流程'
-    ],
     project: [
         {
-            name: "React 富文本编辑器",
-            href: "https://github.com/opensquare-network/rich-text-editor",
-        }, {
-            name: 'jQuery grid',
-            href: 'https://github.com/YoshiyukiSakura/grid'
+            name: "Hivebot - 交易系统",
+            href: "https://github.com/YoshiyukiSakura/hivebot",
+        },
+        {
+            name: "Cryptomind-AI-trading-agent",
+            href: "https://github.com/YoshiyukiSakura/Cryptomind-AI-trading-agent",
+        },
+        {
+            name: "claude-code-slack-copilot",
+            href: "https://github.com/YoshiyukiSakura/claude-code-slack-copilot",
         }
     ],
     companies: {
-        opensquare: {
-            name: 'OpenSquare (远程办公)',
+        heima: {
+            name: 'Heima (原Litentry) (远程)',
             duty: '全栈开发',
-            date: '2020.09 — 至今',
+            date: '2022.12 — 至今',
             project: [
                 {
-                    name: 'OpenSquare 为波卡生态创建体验良好的区块链应用',
-                    date: '2020.09 — 至今',
+                    name: '',
+                    date: '2022.12 — 至今',
                     detail: [
-                        {description: '团队基于React.js和node技术栈为主',},
-                        {content: 'coinask.io, 基于加密币的付费问答社区',},
-                        {content: 'statescan.io, 资产 & NFT 浏览器',},
-                        {content: 'subsquare.io, 民主治理工具平台',},
-                        {
-                            results: '兼任项目测试的工作',
-                        }
+                        {description: '参与开发 https://copilot.wildmeta.ai/，一个加密币交易AI Agent聊天应用',},
+                        {content: '构建交易AI Agent能力与机器人交易系统，支持策略对话、信号分析与执行闭环',},
+                        {content: '参与建设内部编程智能体（Planner、Runner）以及CrossAgent平台，支持多智能体协作研发',},
+                    ]
+                },
+            ]
+        },
+        opensquare: {
+            name: 'OpenSquare (远程)',
+            duty: '前端开发',
+            date: '2020.09 — 2022.06',
+            project: [
+                {
+                    name: '',
+                    date: '2020.09 — 2022.06',
+                    detail: [
+                        {description: '我创建了:',},
+                        {content: 'coinask.io，支持加密货币付费的问答平台',},
+                        {content: 'statescan.io，链上资产和NFT浏览器',},
+                        {content: 'subsquare.io，区块链民主治理工具',},
                     ]
                 },
             ]
         },
         zeroconf: {
-            name: '国外远程兼职项目',
-            duty: '全栈开发',
-            date: '2020.06 — 2021.03',
+            name: 'Blockchain Labs (远程)',
+            duty: '自由职业全栈开发',
+            date: '2020.07 — 2020.09',
             project: [
                 {
-                    name: 'bitcoin fee bot',
-                    date: '2020.06 — 2020.06',
+                    name: 'bitcoin zero confirmation',
+                    date: '2020.07 — 2020.09',
                     detail: [
                         {
-                            description: '一个查询、订阅比特币、ETH手续费的tg机器人',
+                            description: 'GAP600的逆向工程，比特币交易保险',
                         },
                         {
-                            content: '基于node.js的tg包开发',
+                            content: '基于区块链的保险系统，用于保护比特币网络免受恶意攻击',
                         },
                         {
-                            results: '有一定的用户订阅量'
-                        }
-                    ]
-                },
-                {
-                    name: 'zero confirmation',
-                    date: '2020.06 — 2020.08',
-                    detail: [
-                        {
-                            description: '一套可以预计比特币到账时间的系统',
-                        },
-                        {
-                            content: '基于koa2开发',
-                        },
-                        {
-                            results: '项目公开API文档 https://docs.cryptopayments.io/blockchain-zeroconf'
-                        }
-                    ]
-                },
-                {
-                    name: 'zero confirmation 管理后台',
-                    date: '2019.12 — 2020.06',
-                    detail: [
-                        {
-                            description: '多租户管理',
-                        },
-                        {
-                            content: '前端基于React.js、后端基于fastify',
-                        },
-                        {
-                            results: 'demo地址： https://cp.kirisamenana.com/'
+                            results: '项目文档 https://docs.cryptopayments.io/blockchain-zeroconf'
                         }
                     ]
                 },
@@ -117,125 +100,92 @@ const JSON = {
         },
         dbapp: {
             name: '安恒信息',
-            duty: '后端开发&TL',
+            duty: '全栈开发 (技术负责人)',
             date: '2019.11 — 2020.09',
             project: [
                 {
-                    name: 'eHR',
+                    name: 'e-HR',
                     date: '2019.11 — 2020.09',
                     detail: [
                         {
-                            description: '包含入转调离、合同、招聘等功能的人力资源信息化系统',
+                            description: '公司内部Web系统',
                         },
                         {
-                            content: '带领2前端1后端同事工作，交付v1.0、v1.5版本，前端React，后端Golang自研框架',
+                            content: '供员工提交流程、查询个人档案和请假记录',
                         },
                         {
-                            results: '为本公司的HR业务基本实现了信息化、一定程度的自动化'
-                        }
-                    ]
-                },
-                {
-                    name: '排序取号钉钉小程序',
-                    date: '2019.12 — 2019.12',
-                    detail: [
-                        {
-                            description: '用于公司内部员工办理业务时线上取号、叫号',
-                        },
-                        {
-                            content: '全栈开发，前端uniapp，后端fastify.js',
-                        },
-                        {
-                            results: '2个工作日完成了全部开发，由原本专人管理排队转为自助取号、叫号'
-                        }
-                    ]
-                },
-                {
-                    name: '考试系统',
-                    date: '2019.12 — 2020.06',
-                    detail: [
-                        {
-                            description: '用于公司对渠道合作商的培训考核',
-                        },
-                        {
-                            content: '全栈开发，前端vue，后端yii2(开源二开)',
-                        },
-                        {
-                            results: '实现了Excel管理题库、指定难度随机组卷、客观题自动判分、管理后台主动评分等功能'
+                            results: '自动化了大量HR事务，为员工带来更好的体验'
                         }
                     ]
                 },
             ]
         },
         dongjiu: {
-            name: '东九网络',
-            duty: '后端开发',
+            name: '杭州东九公司',
+            duty: '后端开发 (技术负责人)',
             date: '2018.05 — 2019.05',
             project: [
                 {
-                    name: '17uoo网站重构',
+                    name: '17uoo.com',
                     date: '2018.05 — 2019.05',
                     detail: [
                         {
-                            description: '一个游戏币交易网站，单日100w+PV，注册用户约60w，年流水数亿',
+                            description: '17uoo.com是一个可以买卖网游虚拟货币的网站，主要是DNF。单日交易峰值达到200万人民币',
                         },
                         {
-                            content: '主要接手长沙由创公司的游戏币交易平台www.17uoo.com，作为项目经理指挥技术团队10人工作。',
+                            content: '入职时接手项目，原本使用ASP.NET，我的工作是带领10人团队克隆网站并用React和PHP yii2重写',
                         },
                         {
-                            results: '将ASP.NET单机服务器端重构为php分布式，大幅度提升稳定性、功能迭代效率。'
+                            results: '团队历时10个月发布了第一个版本，页面加载速度大幅提升，服务器成本降低一半'
                         }
                     ]
                 },
             ]
         },
         newdun: {
-            name: '牛盾网络',
-            duty: '后端开发',
+            name: '杭州牛盾公司',
+            duty: '后端开发 (技术负责人)',
             date: '2017.11 — 2018.05',
             project: [
                 {
-                    name: '牛盾云管家',
+                    name: '云服务器管理网站',
                     date: '2018.03 — 2018.05',
                     detail: [
                         {
-                            description: '后端4人协作；对接阿里云、腾迅云等厂商openApi，实现一站式管理做服务器。',
+                            description: '带领4人后端团队，对接阿里云、腾讯云、UCLOUD，实现从单一面板管理服务器',
                         },
                         {
-                            content: '负责公有云API的对接和架构设计。',
+                            content: '设计服务器架构',
                         },
                         {
-                            results: '实现了基于Yii的前后端异步通信架构。',
-                        },
-                        {
-                            results: '实现了多线程处理任务队列提高效率。',
+                            results: '创建了多线程处理后端队列',
                         }
                     ]
                 },
                 {
-                    name: '牛盾私有云',
+                    name: '牛盾私有云平台',
                     date: '2017.11 — 2017.12',
                     detail: [
                         {
-                            description: 'WEB前端一人、PHP后端两人、OpenStack端python开发一人。',
+                            description: '基于Openstack，创建网站供用户构建个人云服务器',
                         },
                         {
-                            content: '负责Web后端订单逻辑、对接私有云API胶水层。',
+                            content: '主要负责订单模块',
                         },
                         {
-                            results: '实现了牛盾云的自助下单购买、创建实例等'
+                            results: '用户可以查询价格、下单和支付'
                         }
                     ]
                 },
                 {
-                    name: '佳桉短信群发',
+                    name: '短信平台',
                     date: '2017.11 — 2017.11',
                     detail: [
                         {
-                            content: '用户在网站上传Excel或粘贴字符串，作为目标手机号码群发短信。',
+                            content: '供企业用户向其客户发送营销短信',
                         },
                         {
-                            results: '引入了多线程消费队列机制，实现5秒内解析40万行Excel；'
+                            results: '创建了强大的后端，5秒内可发送40万条短信'
                         }
                     ]
                 }
@@ -243,28 +193,13 @@ const JSON = {
         },
         fengyuan: {
             name: '风远科技',
-            duty: '后端开发',
+            duty: '项目经理',
             date: '2017.04 — 2017.11',
             project: [
                 {
                     detail: [
                         {
-                            content: '开发维护基础工程，制定代码规范、行为准则',
-                        },
-                        {
-                            content: '统筹项目内部的进度安排',
-                        },
-                        {
-                            content: '帮助梳理业务逻辑，协助同事解决疑难bug',
-                        },
-                        {
-                            results: '作为后端开发完成多个项目，内部同比效率最高',
-                        },
-                        {
-                            results: '在职后期任负责人，组织管理工作',
-                        },
-                        {
-                            results: '为公司撰写文档，实现新人上手工作手册化'
+                            content: '软件外包公司，担任后端团队经理，主要负责项目管理和bug修复',
                         }
                     ]
                 }
@@ -272,16 +207,16 @@ const JSON = {
         },
         zhongche: {
             name: '中车电商',
-            duty: '前端开发',
+            duty: '前端开发实习生',
             date: '2017.02 — 2017.03',
             project: [
                 {
                     detail: [
                         {
-                            content: '在校实习经历，主要内容为静态页的实现',
+                            content: '我的第一份工作，将UI设计转化为网页',
                         },
                         {
-                            results: '99%还原设计，向下兼容至IE7'
+                            results: '中国最大的铁路设备交易网站，也有英文站 http://en.ecrrc.com/'
                         }
                     ]
                 }
